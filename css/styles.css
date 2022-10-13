@@ -1,0 +1,63 @@
+/*General*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+div form{
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px auto;
+  }
+
+/*Page d'accueil*/
+.menu{
+    margin-top: 30px;
+}
+
+.description_item{
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin: auto;
+    height: 150px;
+    border: solid white 5px;
+    border-radius: 2px;
+    background-color: aquamarine;
+    font-size: 30px;
+}
+
+.description_item:hover{
+    background-color: green;
+    color: white;
+}
+
+.description_item a:hover{
+    color: white;
+}
+
+/*Page de connexion*/
+  .login-form{
+    width: 60%;
+  }
+
+  a:hover{
+    color: gray;
+  }
+
+  form img{
+    display: inline-block;
+    width: 150px;
+  }
+
+  input{
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  select{
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
